@@ -14,9 +14,14 @@ export class UsuariosController {
         this.servicio.registrarNuevoUsuario(usuario)
     }
 
+    @Post('arrayUsuarios')
+    registrarArrayUsuarios(@Body() usuarios: Usuario[]): void{
+        this.servicio.registrarArrayUsuarios(usuarios)
+    }
+
     @Get(':id')
     obtenerUsuarioPorID(@Param('id') idx: number, @Res() response: Response): void{
-        let usuarioxID: Usuario = this.servicio.obtenerUsuarioPorID(idx);
+        let usuarioxID: UsuarioDTO = this.servicio.obtenerUsuarioPorID(idx);
         if(usuarioxID){
             response.status(200).send(usuarioxID);
         }

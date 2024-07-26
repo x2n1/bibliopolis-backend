@@ -7,6 +7,15 @@ export class UsuariosService {
     
     private usuarios: Usuario[] = [];
 
+    crearUsuarioDTO(usuariosArr: Usuario[]): UsuarioDTO[]{
+        let usuariosDTO:  UsuarioDTO[] = []
+
+        for(let i: number = 0; i < this.usuarios.length; i++){
+            usuariosDTO.push(new UsuarioDTO(usuariosArr[i].id,usuariosArr[i].nombre,
+            usuariosArr[i].correoElectronico,usuariosArr[i].direccion,usuariosArr[i].historialPedidos) )
+        }
+        return usuariosDTO
+    }
 
     registrarNuevoUsuario(usuario: Usuario): void{
         for(let i: number = 0; i < this.usuarios.length; i++){
@@ -19,11 +28,23 @@ export class UsuariosService {
         this.usuarios.push(usuario)
     }
 
+    registrarArrayUsuarios(usuarios: Usuario[]): void{
+        // for(let i: number = 0; i < this.usuarios.length; i++){
+        //     if(this.usuarios[i].correoElectronico == usuario.correoElectronico){
+        //         return null
+        //     }
+        // }
+        // usuario.id = this.usuarios.length + 1
 
-    obtenerUsuarioPorID(idx: number): Usuario{
-        for(let i: number = 0; i < this.usuarios.length; i++){
-            if(this.usuarios[i].id == idx){
-                return this.usuarios[i]
+        this.usuarios = usuarios
+    }
+
+
+    obtenerUsuarioPorID(idx: number): UsuarioDTO{
+        let usuariosDTO: UsuarioDTO[] = this.crearUsuarioDTO(this.usuarios)
+        for(let i: number = 0; i < usuariosDTO.length; i++){
+            if(usuariosDTO[i].id == idx){
+                return usuariosDTO[i]
             }
         }
         return null
@@ -31,12 +52,7 @@ export class UsuariosService {
 
 
     obtenerUsuarios(): UsuarioDTO[]{
-        let usuariosDTO:  UsuarioDTO[] = []
-        for(let i: number = 0; i < this.usuarios.length; i++){
-            usuariosDTO.push(new UsuarioDTO(this.usuarios[i].id,this.usuarios[i].nombre,
-            this.usuarios[i].correoElectronico,this.usuarios[i].direccion,this.usuarios[i].historialPedidos) )
-        }
-        return usuariosDTO
+        return this.crearUsuarioDTO(this.usuarios)
     }
 
     eliminarUsuarioxID(idx: number): void{
