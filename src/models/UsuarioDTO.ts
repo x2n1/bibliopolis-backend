@@ -1,11 +1,10 @@
 import { Pedido } from "./Pedido";
 
-export class Usuario{
+export class UsuarioDTO{
     constructor(
         public id: number,
         public nombre: string,
         public correoElectronico: string,
-        private contrasena: string,
         public direccion: string,
         public historialPedidos: Pedido[]
       ) {}
