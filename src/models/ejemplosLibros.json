@@ -1,0 +1,113 @@
+[
+    {
+      "isbn": "978-3-16-148410-0",
+      "titulo": "El Principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "editorial": "Reynal & Hitchcock",
+      "genero": "Ficción",
+      "precio": 15000,
+      "descripcion": "Un libro sobre un niño que vive en un pequeño planeta.",
+      "imagen": "https://example.com/imagenes/el_principito.jpg",
+      "stock": 20
+    },
+    {
+      "isbn": "978-0-7432-7356-5",
+      "titulo": "Cien Años de Soledad",
+      "autor": "Gabriel García Márquez",
+      "editorial": "Harper & Row",
+      "genero": "Realismo Mágico",
+      "precio": 20000,
+      "descripcion": "Una obra maestra sobre la historia de la familia Buendía.",
+      "imagen": "https://example.com/imagenes/cien_anos_de_soledad.jpg",
+      "stock": 10
+    },
+    {
+      "isbn": "978-0-14-243723-0",
+      "titulo": "Moby Dick",
+      "autor": "Herman Melville",
+      "editorial": "Penguin Books",
+      "genero": "Aventura",
+      "precio": 15000,
+      "descripcion": "La historia del capitán Ahab y su obsesión con la ballena blanca.",
+      "imagen": "https://example.com/imagenes/moby_dick.jpg",
+      "stock": 15
+    },
+    {
+      "isbn": "978-0-316-76948-0",
+      "titulo": "La Sombra del Viento",
+      "autor": "Carlos Ruiz Zafón",
+      "editorial": "Planeta",
+      "genero": "Misterio",
+      "precio": 30000,
+      "descripcion": "Un joven encuentra un libro que cambiará su vida para siempre.",
+      "imagen": "https://example.com/imagenes/la_sombra_del_viento.jpg",
+      "stock": 25
+    },
+    {
+      "isbn": "978-0-307-74196-4",
+      "titulo": "Inferno",
+      "autor": "Dan Brown",
+      "editorial": "Doubleday",
+      "genero": "Thriller",
+      "precio": 20000,
+      "descripcion": "Robert Langdon descifra un misterio en Florencia.",
+      "imagen": "https://example.com/imagenes/inferno.jpg",
+      "stock": 30
+    },
+    {
+      "isbn": "978-0-395-19395-8",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "editorial": "Houghton Mifflin Harcourt",
+      "genero": "Ficción",
+      "precio": 18000,
+      "descripcion": "Una novela distópica sobre una sociedad totalitaria.",
+      "imagen": "https://example.com/imagenes/1984.jpg",
+      "stock": 22
+    },
+    {
+      "isbn": "978-1-4088-5677-4",
+      "titulo": "La Casa de los Espíritus",
+      "autor": "Isabel Allende",
+      "editorial": "Plaza & Janes",
+      "genero": "Realismo Mágico",
+      "precio": 25000,
+      "descripcion": "Una novela que sigue a la familia Trueba a través de varias generaciones.",
+      "imagen": "https://example.com/imagenes/la_casa_de_los_espiritus.jpg",
+      "stock": 18
+    },
+    {
+      "isbn": "978-1-84749-646-6",
+      "titulo": "Robinson Crusoe",
+      "autor": "Daniel Defoe",
+      "editorial": "Penguin Classics",
+      "genero": "Aventura",
+      "precio": 14000,
+      "descripcion": "La historia de un náufrago que pasa años en una isla desierta.",
+      "imagen": "https://example.com/imagenes/robinson_crusoe.jpg",
+      "stock": 12
+    },
+    {
+      "isbn": "978-0-316-00789-4",
+      "titulo": "El Código Da Vinci",
+      "autor": "Dan Brown",
+      "editorial": "Doubleday",
+      "genero": "Misterio",
+      "precio": 28000,
+      "descripcion": "Una emocionante novela de misterio protagonizada por Robert Langdon.",
+      "imagen": "https://example.com/imagenes/el_codigo_da_vinci.jpg",
+      "stock": 27
+    },
+    {
+      "isbn": "978-0-316-76940-2",
+      "titulo": "Ángeles y Demonios",
+      "autor": "Dan Brown",
+      "editorial": "Pocket Books",
+      "genero": "Thriller",
+      "precio": 22000,
+      "descripcion": "Robert Langdon investiga una conspiración secreta en el Vaticano.",
+      "imagen": "https://example.com/imagenes/angeles_y_demonios.jpg",
+      "stock": 35
+    }
+  ]
+  

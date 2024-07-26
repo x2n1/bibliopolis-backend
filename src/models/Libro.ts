@@ -1,6 +1,6 @@
 export class Libro{
     constructor(
-        public isbn: number,
+        public isbn: string,
         public titulo: string,
         public autor: string,
         public editorial: string,

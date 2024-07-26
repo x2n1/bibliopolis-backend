@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos Mendez",
+    "correoElectronico": "carlos.mendez@example.com",
+    "contrasena": "password123",
+    "direccion": "Calle Falsa 123, Santiago, Chile",
+    "historialPedidos": [
+      {
+        "id": 101,
+        "usuario": {
+          "id": 1,
+          "nombre": "Carlos Mendez",
+          "correoElectronico": "carlos.mendez@example.com",
+          "contrasena": "password123",
+          "direccion": "Calle Falsa 123, Santiago, Chile"
+        },
+        "fechaPedido": "2024-07-01",
+        "estado": "entregado",
+        "total": 35000,
+        "items": [
+          {
+            "libro": {
+              "isbn": "978-3-16-148410-0",
+              "titulo": "El Principito",
+              "autor": "Antoine de Saint-Exupéry",
+              "editorial": "Reynal & Hitchcock",
+              "genero": "Ficción",
+              "precio": 15000,
+              "descripcion": "Un libro sobre un niño que vive en un pequeño planeta.",
+              "imagen": "https://example.com/imagenes/el_principito.jpg",
+              "stock": 20
+            },
+            "cantidad": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Ana Fernandez",
+    "correoElectronico": "ana.fernandez@example.com",
+    "contrasena": "securePass456",
+    "direccion": "Av. Libertador 456, Valparaíso, Chile",
+    "historialPedidos": [
+      {
+        "id": 102,
+        "usuario": {
+          "id": 2,
+          "nombre": "Ana Fernandez",
+          "correoElectronico": "ana.fernandez@example.com",
+          "contrasena": "securePass456",
+          "direccion": "Av. Libertador 456, Valparaíso, Chile"
+        },
+        "fechaPedido": "2024-07-03",
+        "estado": "enviado",
+        "total": 20000,
+        "items": [
+          {
+            "libro": {
+              "isbn": "978-0-7432-7356-5",
+              "titulo": "Cien Años de Soledad",
+              "autor": "Gabriel García Márquez",
+              "editorial": "Harper & Row",
+              "genero": "Realismo Mágico",
+              "precio": 20000,
+              "descripcion": "Una obra maestra sobre la historia de la familia Buendía.",
+              "imagen": "https://example.com/imagenes/cien_anos_de_soledad.jpg",
+              "stock": 10
+            },
+            "cantidad": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Luis Martinez",
+    "correoElectronico": "luis.martinez@example.com",
+    "contrasena": "myPassword789",
+    "direccion": "Calle La Paz 789, Concepción, Chile",
+    "historialPedidos": [
+      {
+        "id": 103,
+        "usuario": {
+          "id": 3,
+          "nombre": "Luis Martinez",
+          "correoElectronico": "luis.martinez@example.com",
+          "contrasena": "myPassword789",
+          "direccion": "Calle La Paz 789, Concepción, Chile"
+        },
+        "fechaPedido": "2024-07-05",
+        "estado": "en proceso",
+        "total": 45000,
+        "items": [
+          {
+            "libro": {
+              "isbn": "978-0-14-243723-0",
+              "titulo": "Moby Dick",
+              "autor": "Herman Melville",
+              "editorial": "Penguin Books",
+              "genero": "Aventura",
+              "precio": 15000,
+              "descripcion": "La historia del capitán Ahab y su obsesión con la ballena blanca.",
+              "imagen": "https://example.com/imagenes/moby_dick.jpg",
+              "stock": 15
+            },
+            "cantidad": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Maria Gonzalez",
+    "correoElectronico": "maria.gonzalez@example.com",
+    "contrasena": "safePass012",
+    "direccion": "Av. Providencia 1234, Santiago, Chile",
+    "historialPedidos": [
+      {
+        "id": 104,
+        "usuario": {
+          "id": 4,
+          "nombre": "Maria Gonzalez",
+          "correoElectronico": "maria.gonzalez@example.com",
+          "contrasena": "safePass012",
+          "direccion": "Av. Providencia 1234, Santiago, Chile"
+        },
+        "fechaPedido": "2024-07-07",
+        "estado": "pendiente",
+        "total": 30000,
+        "items": [
+          {
+            "libro": {
+              "isbn": "978-0-316-76948-0",
+              "titulo": "La Sombra del Viento",
+              "autor": "Carlos Ruiz Zafón",
+              "editorial": "Planeta",
+              "genero": "Misterio",
+              "precio": 30000,
+              "descripcion": "Un joven encuentra un libro que cambiará su vida para siempre.",
+              "imagen": "https://example.com/imagenes/la_sombra_del_viento.jpg",
+              "stock": 25
+            },
+            "cantidad": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Jose Perez",
+    "correoElectronico": "jose.perez@example.com",
+    "contrasena": "passWord345",
+    "direccion": "Calle Las Flores 567, Viña del Mar, Chile",
+    "historialPedidos": [
+      {
+        "id": 105,
+        "usuario": {
+          "id": 5,
+          "nombre": "Jose Perez",
+          "correoElectronico": "jose.perez@example.com",
+          "contrasena": "passWord345",
+          "direccion": "Calle Las Flores 567, Viña del Mar, Chile"
+        },
+        "fechaPedido": "2024-07-09",
+        "estado": "entregado",
+        "total": 60000,
+        "items": [
+          {
+            "libro": {
+              "isbn": "978-0-307-74196-4",
+              "titulo": "Inferno",
+              "autor": "Dan Brown",
+              "editorial": "Doubleday",
+              "genero": "Thriller",
+              "precio": 20000,
+              "descripcion": "Robert Langdon descifra un misterio en Florencia.",
+              "imagen": "https://example.com/imagenes/inferno.jpg",
+              "stock": 30
+            },
+            "cantidad": 3
+          }
+        ]
+      }
+    ]
+  }
+]
